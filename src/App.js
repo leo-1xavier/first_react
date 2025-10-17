@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import ProductsSection from './components/ProductsSection';
 import NewArrival from "./components/NewArrival";
 import BannerSection from "./components/SecondBannerSection";
+import MostPopularSection from './components/MostPopularSection';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <ProductsSection />
       <NewArrival />
       <BannerSection />
-
+      <MostPopularSection />
     </>
   );
 }
