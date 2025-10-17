@@ -4,7 +4,7 @@ import ProductsSection from './components/ProductsSection';
 import NewArrival from "./components/NewArrival";
 import BannerSection from "./components/SecondBannerSection";
 import MostPopularSection from './components/MostPopularSection';
-
+import ProductTabs from "./components/ProductTabs";
 function App() {
   return (
     <>
@@ -14,6 +14,7 @@ function App() {
       <NewArrival />
       <BannerSection />
       <MostPopularSection />
+      <ProductTabs />
     </>
   );
 }
