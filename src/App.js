@@ -1,10 +1,14 @@
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
-import ProductsSection from './components/ProductsSection';
 import NewArrival from "./components/NewArrival";
 import BannerSection from "./components/SecondBannerSection";
 import MostPopularSection from './components/MostPopularSection';
-import ProductTabs from "./components/ProductTabs";
+import ProductsSection from "./components/ProductsSection";
+import NewArrivalCarousel from "./components/NewArrivalCarousel";
+import Promises from "./components/Promises";
+import SideNav from "./components/SideNav";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
@@ -14,9 +18,15 @@ function App() {
       <NewArrival />
       <BannerSection />
       <MostPopularSection />
-      <ProductTabs />
+      <NewArrivalCarousel />
+      <Promises />
+      <SideNav />
+      <Footer />
     </>
   );
 }
 
 export default App;
+
+
+

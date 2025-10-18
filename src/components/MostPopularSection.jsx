@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 
+//  If images are inside src/assets:
+import deal from "../assets/deal.png";
+import img1 from "../assets/1.png";
+import img2 from "../assets/2.png";
+
 const allProducts = {
     most1: [
         { name: "Wood Chair 1", oldPrice: "$49.00", price: "$35.50", img: "/Images/1.jpg" },
